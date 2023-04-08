@@ -22,9 +22,5 @@ fn main() {
 [a blog](0)
 
 
-
-
-
-
 [^blog]: <https://mxz42.dev>
 
