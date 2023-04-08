@@ -25,7 +25,7 @@ fn main() {
 
 ## a link
 
-[a blog](0)
+[a blog][blog]
 
 
 [^blog]: <https://mxz42.dev>
