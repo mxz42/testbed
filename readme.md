@@ -1,5 +1,11 @@
 # ReadMe
 
+<!--toc:start-->
+- [ReadMe](#readme)
+  - [Rust is The Future](#rust-is-the-future)
+  - [a link](#a-link)
+<!--toc:end-->
+
 
 This is a readme file
 
@@ -19,7 +25,7 @@ fn main() {
 
 ## a link
 
-[a blog](0)
+[a blog][blog]
 
 
 [^blog]: <https://mxz42.dev>
