@@ -13,8 +13,6 @@ This manual page
 documents the GNU version of
 .BR xargs .
 .B xargs
-reads items from the standard input, delimited by blanks (which can be
-protected with double or single quotes or a backslash) or newlines,
 and executes the
 .I command
 (default is
@@ -118,7 +116,6 @@ This option is a synonym for the
 option.  Use
 .B \-E
 instead,
-because it is POSIX compliant while this option is not.  If
 \fIeof-str\fR is omitted, there is no end of file string.  If neither
 .B \-E
 nor
@@ -126,8 +123,6 @@ nor
 is used, no end of file string is used.
 .TP
 .BI \-I " replace-str"
-Replace occurrences of \fIreplace-str\fR in the initial-arguments with
-names read from standard input.  Also, unquoted blanks do not
 terminate input items; instead the separator is the newline character.
 Implies
 .B \-x
